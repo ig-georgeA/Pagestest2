@@ -1,12 +1,12 @@
 import { Component, OnDestroy, OnInit } from '@angular/core';
 import { IgxCategoryChartModule } from 'igniteui-angular-charts';
 import { Subject, takeUntil } from 'rxjs';
-import { CholesterolHDLLDLType } from '../models/patient-dashboard/cholesterol-hdlldltype';
+import { BPSystolicDiastolicType } from '../models/patient-dashboard/bpsystolic-diastolic-type';
+import { WeightType } from '../models/patient-dashboard/weight-type';
 import { TotalCholesterolType } from '../models/patient-dashboard/total-cholesterol-type';
 import { GlucoseType } from '../models/patient-dashboard/glucose-type';
 import { HeartRateType } from '../models/patient-dashboard/heart-rate-type';
-import { WeightType } from '../models/patient-dashboard/weight-type';
-import { BPSystolicDiastolicType } from '../models/patient-dashboard/bpsystolic-diastolic-type';
+import { CholesterolHDLLDLType } from '../models/patient-dashboard/cholesterol-hdlldltype';
 import { PatientDashboardService } from '../services/patient-dashboard.service';
 
 @Component({
